@@ -1,0 +1,373 @@
+
+Processing TMVAClassification.C...
+
+==> Start TMVAClassification
+DataSetInfo              : [dataset] : Added class "Signal"
+                         : Add Tree DecayTree of type Signal with 5468 events
+DataSetInfo              : [dataset] : Added class "Background"
+                         : Add Tree DecayTree of type Background with 96392 events
+Factory                  : Booking method: [1mBDT[0m
+                         : 
+                         : Rebuilding Dataset dataset
+                         : Building event vectors for type 2 Signal
+                         : Dataset[dataset] :  create input formulas for tree DecayTree
+                         : Dataset[dataset] :  create input formulas for tree DecayTree
+                         : Dataset[dataset] :  create input formulas for tree DecayTree
+                         : Building event vectors for type 2 Background
+                         : Dataset[dataset] :  create input formulas for tree DecayTree
+                         : Dataset[dataset] :  create input formulas for tree DecayTree
+                         : Dataset[dataset] :  create input formulas for tree DecayTree
+DataSetFactory           : [dataset] : Number of events in input trees
+                         : Dataset[dataset] :     Signal     requirement: ""
+                         : Dataset[dataset] :     Signal          -- number of events passed: 5468   / sum of weights: 5468 
+                         : Dataset[dataset] :     Signal          -- efficiency             : 1     
+                         : Dataset[dataset] :     Background requirement: "((5320<B0_M && B0_M<5600))"
+                         : Dataset[dataset] :     Background      -- number of events passed: 24566  / sum of weights: 24566
+                         : Dataset[dataset] :     Background      -- efficiency             : 0.254855
+                         : 
+                         : Dataset[dataset] :  you have opted for interpreting the requested number of training/testing events
+                         :  to be the number of events AFTER your preselection cuts
+                         : 
+                         : Dataset[dataset] : Weight renormalisation mode: "EqualNumEvents": renormalises all event classes ...
+                         : Dataset[dataset] :  such that the effective (weighted) number of events in each class is the same 
+                         : Dataset[dataset] :  (and equals the number of events (entries) given for class=0 )
+                         : Dataset[dataset] : ... i.e. such that Sum[i=1..N_j]{w_i} = N_classA, j=classA, classB, ...
+                         : Dataset[dataset] : ... (note that N_j is the sum of TRAINING events
+                         : Dataset[dataset] :  ..... Testing events are not renormalised nor included in the renormalisation factor!)
+                         : Number of training and testing events
+                         : ---------------------------------------------------------------------------
+                         : Signal     -- training events            : 2734
+                         : Signal     -- testing events             : 2734
+                         : Signal     -- training and testing events: 5468
+                         : Background -- training events            : 12283
+                         : Background -- testing events             : 12283
+                         : Background -- training and testing events: 24566
+                         : Dataset[dataset] : Background -- due to the preselection a scaling factor has been applied to the numbers of requested events: 0.254855
+                         : 
+DataSetInfo              : Correlation matrix (Signal):
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                         log_B0_IPCHI2_OWNPV_ log_B0_ENDVERTEX_CHI2_ log_D_ENDVERTEX_CHI2_ log_D_FDCHI2_ORIVX_ log_K_IPCHI2_OWNPV_ log_pi1_PT_ log_pi1_IPCHI2_OWNPV_ log_pi2_PT_ log_pi2_IPCHI2_OWNPV_ log_p_PT_ log_pbar_PT_ log_pi_PT_
+                         :   log_B0_IPCHI2_OWNPV_:               +1.000                 +0.094                +0.044              +0.023              +0.008      +0.008                -0.008      +0.012                +0.035    +0.032       +0.007     +0.025
+                         : log_B0_ENDVERTEX_CHI2_:               +0.094                 +1.000                +0.060              +0.080              +0.059      +0.084                +0.063      +0.100                +0.079    +0.177       +0.139     +0.120
+                         :  log_D_ENDVERTEX_CHI2_:               +0.044                 +0.060                +1.000              +0.060              +0.038      +0.065                +0.058      +0.048                +0.002    +0.030       +0.050     +0.054
+                         :    log_D_FDCHI2_ORIVX_:               +0.023                 +0.080                +0.060              +1.000              +0.280      +0.093                +0.368      +0.156                +0.356    +0.137       +0.115     +0.049
+                         :    log_K_IPCHI2_OWNPV_:               +0.008                 +0.059                +0.038              +0.280              +1.000      +0.000                +0.281      +0.016                +0.301    +0.110       +0.127     +0.061
+                         :            log_pi1_PT_:               +0.008                 +0.084                +0.065              +0.093              +0.000      +1.000                +0.181      -0.120                +0.002    +0.174       +0.159     +0.085
+                         :  log_pi1_IPCHI2_OWNPV_:               -0.008                 +0.063                +0.058              +0.368              +0.281      +0.181                +1.000      +0.069                +0.268    +0.136       +0.119     +0.071
+                         :            log_pi2_PT_:               +0.012                 +0.100                +0.048              +0.156              +0.016      -0.120                +0.069      +1.000                +0.132    +0.187       +0.198     +0.128
+                         :  log_pi2_IPCHI2_OWNPV_:               +0.035                 +0.079                +0.002              +0.356              +0.301      +0.002                +0.268      +0.132                +1.000    +0.088       +0.092     +0.072
+                         :              log_p_PT_:               +0.032                 +0.177                +0.030              +0.137              +0.110      +0.174                +0.136      +0.187                +0.088    +1.000       +0.247     +0.156
+                         :           log_pbar_PT_:               +0.007                 +0.139                +0.050              +0.115              +0.127      +0.159                +0.119      +0.198                +0.092    +0.247       +1.000     +0.141
+                         :             log_pi_PT_:               +0.025                 +0.120                +0.054              +0.049              +0.061      +0.085                +0.071      +0.128                +0.072    +0.156       +0.141     +1.000
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DataSetInfo              : Correlation matrix (Background):
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                         log_B0_IPCHI2_OWNPV_ log_B0_ENDVERTEX_CHI2_ log_D_ENDVERTEX_CHI2_ log_D_FDCHI2_ORIVX_ log_K_IPCHI2_OWNPV_ log_pi1_PT_ log_pi1_IPCHI2_OWNPV_ log_pi2_PT_ log_pi2_IPCHI2_OWNPV_ log_p_PT_ log_pbar_PT_ log_pi_PT_
+                         :   log_B0_IPCHI2_OWNPV_:               +1.000                 +0.043                +0.015              -0.061              -0.001      -0.016                -0.013      -0.036                -0.011    -0.090       -0.079     -0.017
+                         : log_B0_ENDVERTEX_CHI2_:               +0.043                 +1.000                +0.005              +0.246              -0.019      +0.050                -0.008      +0.049                -0.007    +0.079       +0.080     -0.021
+                         :  log_D_ENDVERTEX_CHI2_:               +0.015                 +0.005                +1.000              -0.001              -0.029      +0.003                -0.044      -0.014                -0.059    +0.066       +0.073     +0.048
+                         :    log_D_FDCHI2_ORIVX_:               -0.061                 +0.246                -0.001              +1.000              +0.194      +0.039                +0.209      +0.056                +0.215    +0.143       +0.134     -0.038
+                         :    log_K_IPCHI2_OWNPV_:               -0.001                 -0.019                -0.029              +0.194              +1.000      -0.036                +0.260      -0.017                +0.260    +0.017       +0.020     -0.008
+                         :            log_pi1_PT_:               -0.016                 +0.050                +0.003              +0.039              -0.036      +1.000                +0.358      -0.071                -0.037    +0.012       +0.005     +0.078
+                         :  log_pi1_IPCHI2_OWNPV_:               -0.013                 -0.008                -0.044              +0.209              +0.260      +0.358                +1.000      -0.021                +0.246    +0.006       +0.013     +0.059
+                         :            log_pi2_PT_:               -0.036                 +0.049                -0.014              +0.056              -0.017      -0.071                -0.021      +1.000                +0.394    +0.026       +0.012     +0.058
+                         :  log_pi2_IPCHI2_OWNPV_:               -0.011                 -0.007                -0.059              +0.215              +0.260      -0.037                +0.246      +0.394                +1.000    +0.008       +0.021     +0.044
+                         :              log_p_PT_:               -0.090                 +0.079                +0.066              +0.143              +0.017      +0.012                +0.006      +0.026                +0.008    +1.000       +0.188     -0.026
+                         :           log_pbar_PT_:               -0.079                 +0.080                +0.073              +0.134              +0.020      +0.005                +0.013      +0.012                +0.021    +0.188       +1.000     -0.012
+                         :             log_pi_PT_:               -0.017                 -0.021                +0.048              -0.038              -0.008      +0.078                +0.059      +0.058                +0.044    -0.026       -0.012     +1.000
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DataSetFactory           : [dataset] :  
+                         : 
+Factory                  : [1mTrain all methods[0m
+Factory                  : [dataset] : Create Transformation "I" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'log(B0_IPCHI2_OWNPV)' <---> Output : variable 'log(B0_IPCHI2_OWNPV)'
+                         : Input : variable 'log(B0_ENDVERTEX_CHI2)' <---> Output : variable 'log(B0_ENDVERTEX_CHI2)'
+                         : Input : variable 'log(D_ENDVERTEX_CHI2)' <---> Output : variable 'log(D_ENDVERTEX_CHI2)'
+                         : Input : variable 'log(D_FDCHI2_ORIVX)' <---> Output : variable 'log(D_FDCHI2_ORIVX)'
+                         : Input : variable 'log(K_IPCHI2_OWNPV)' <---> Output : variable 'log(K_IPCHI2_OWNPV)'
+                         : Input : variable 'log(pi1_PT)' <---> Output : variable 'log(pi1_PT)'
+                         : Input : variable 'log(pi1_IPCHI2_OWNPV)' <---> Output : variable 'log(pi1_IPCHI2_OWNPV)'
+                         : Input : variable 'log(pi2_PT)' <---> Output : variable 'log(pi2_PT)'
+                         : Input : variable 'log(pi2_IPCHI2_OWNPV)' <---> Output : variable 'log(pi2_IPCHI2_OWNPV)'
+                         : Input : variable 'log(p_PT)' <---> Output : variable 'log(p_PT)'
+                         : Input : variable 'log(pbar_PT)' <---> Output : variable 'log(pbar_PT)'
+                         : Input : variable 'log(pi_PT)' <---> Output : variable 'log(pi_PT)'
+Factory                  : [dataset] : Create Transformation "D" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'log(B0_IPCHI2_OWNPV)' <---> Output : variable 'log(B0_IPCHI2_OWNPV)'
+                         : Input : variable 'log(B0_ENDVERTEX_CHI2)' <---> Output : variable 'log(B0_ENDVERTEX_CHI2)'
+                         : Input : variable 'log(D_ENDVERTEX_CHI2)' <---> Output : variable 'log(D_ENDVERTEX_CHI2)'
+                         : Input : variable 'log(D_FDCHI2_ORIVX)' <---> Output : variable 'log(D_FDCHI2_ORIVX)'
+                         : Input : variable 'log(K_IPCHI2_OWNPV)' <---> Output : variable 'log(K_IPCHI2_OWNPV)'
+                         : Input : variable 'log(pi1_PT)' <---> Output : variable 'log(pi1_PT)'
+                         : Input : variable 'log(pi1_IPCHI2_OWNPV)' <---> Output : variable 'log(pi1_IPCHI2_OWNPV)'
+                         : Input : variable 'log(pi2_PT)' <---> Output : variable 'log(pi2_PT)'
+                         : Input : variable 'log(pi2_IPCHI2_OWNPV)' <---> Output : variable 'log(pi2_IPCHI2_OWNPV)'
+                         : Input : variable 'log(p_PT)' <---> Output : variable 'log(p_PT)'
+                         : Input : variable 'log(pbar_PT)' <---> Output : variable 'log(pbar_PT)'
+                         : Input : variable 'log(pi_PT)' <---> Output : variable 'log(pi_PT)'
+Factory                  : [dataset] : Create Transformation "P" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'log(B0_IPCHI2_OWNPV)' <---> Output : variable 'log(B0_IPCHI2_OWNPV)'
+                         : Input : variable 'log(B0_ENDVERTEX_CHI2)' <---> Output : variable 'log(B0_ENDVERTEX_CHI2)'
+                         : Input : variable 'log(D_ENDVERTEX_CHI2)' <---> Output : variable 'log(D_ENDVERTEX_CHI2)'
+                         : Input : variable 'log(D_FDCHI2_ORIVX)' <---> Output : variable 'log(D_FDCHI2_ORIVX)'
+                         : Input : variable 'log(K_IPCHI2_OWNPV)' <---> Output : variable 'log(K_IPCHI2_OWNPV)'
+                         : Input : variable 'log(pi1_PT)' <---> Output : variable 'log(pi1_PT)'
+                         : Input : variable 'log(pi1_IPCHI2_OWNPV)' <---> Output : variable 'log(pi1_IPCHI2_OWNPV)'
+                         : Input : variable 'log(pi2_PT)' <---> Output : variable 'log(pi2_PT)'
+                         : Input : variable 'log(pi2_IPCHI2_OWNPV)' <---> Output : variable 'log(pi2_IPCHI2_OWNPV)'
+                         : Input : variable 'log(p_PT)' <---> Output : variable 'log(p_PT)'
+                         : Input : variable 'log(pbar_PT)' <---> Output : variable 'log(pbar_PT)'
+                         : Input : variable 'log(pi_PT)' <---> Output : variable 'log(pi_PT)'
+Factory                  : [dataset] : Create Transformation "G" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'log(B0_IPCHI2_OWNPV)' <---> Output : variable 'log(B0_IPCHI2_OWNPV)'
+                         : Input : variable 'log(B0_ENDVERTEX_CHI2)' <---> Output : variable 'log(B0_ENDVERTEX_CHI2)'
+                         : Input : variable 'log(D_ENDVERTEX_CHI2)' <---> Output : variable 'log(D_ENDVERTEX_CHI2)'
+                         : Input : variable 'log(D_FDCHI2_ORIVX)' <---> Output : variable 'log(D_FDCHI2_ORIVX)'
+                         : Input : variable 'log(K_IPCHI2_OWNPV)' <---> Output : variable 'log(K_IPCHI2_OWNPV)'
+                         : Input : variable 'log(pi1_PT)' <---> Output : variable 'log(pi1_PT)'
+                         : Input : variable 'log(pi1_IPCHI2_OWNPV)' <---> Output : variable 'log(pi1_IPCHI2_OWNPV)'
+                         : Input : variable 'log(pi2_PT)' <---> Output : variable 'log(pi2_PT)'
+                         : Input : variable 'log(pi2_IPCHI2_OWNPV)' <---> Output : variable 'log(pi2_IPCHI2_OWNPV)'
+                         : Input : variable 'log(p_PT)' <---> Output : variable 'log(p_PT)'
+                         : Input : variable 'log(pbar_PT)' <---> Output : variable 'log(pbar_PT)'
+                         : Input : variable 'log(pi_PT)' <---> Output : variable 'log(pi_PT)'
+Factory                  : [dataset] : Create Transformation "D" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'log(B0_IPCHI2_OWNPV)' <---> Output : variable 'log(B0_IPCHI2_OWNPV)'
+                         : Input : variable 'log(B0_ENDVERTEX_CHI2)' <---> Output : variable 'log(B0_ENDVERTEX_CHI2)'
+                         : Input : variable 'log(D_ENDVERTEX_CHI2)' <---> Output : variable 'log(D_ENDVERTEX_CHI2)'
+                         : Input : variable 'log(D_FDCHI2_ORIVX)' <---> Output : variable 'log(D_FDCHI2_ORIVX)'
+                         : Input : variable 'log(K_IPCHI2_OWNPV)' <---> Output : variable 'log(K_IPCHI2_OWNPV)'
+                         : Input : variable 'log(pi1_PT)' <---> Output : variable 'log(pi1_PT)'
+                         : Input : variable 'log(pi1_IPCHI2_OWNPV)' <---> Output : variable 'log(pi1_IPCHI2_OWNPV)'
+                         : Input : variable 'log(pi2_PT)' <---> Output : variable 'log(pi2_PT)'
+                         : Input : variable 'log(pi2_IPCHI2_OWNPV)' <---> Output : variable 'log(pi2_IPCHI2_OWNPV)'
+                         : Input : variable 'log(p_PT)' <---> Output : variable 'log(p_PT)'
+                         : Input : variable 'log(pbar_PT)' <---> Output : variable 'log(pbar_PT)'
+                         : Input : variable 'log(pi_PT)' <---> Output : variable 'log(pi_PT)'
+TFHandler_Factory        :               Variable                      Mean                      RMS              [        Min                      Max ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------
+                         :   log(B0_IPCHI2_OWNPV):                 0.80953                  1.5059   [                 -10.615                  2.9955 ]
+                         : log(B0_ENDVERTEX_CHI2):                  1.7240                 0.93572   [                 -2.3506                  3.8066 ]
+                         :  log(D_ENDVERTEX_CHI2):                 0.99629                  1.0223   [                 -6.1176                  2.7077 ]
+                         :    log(D_FDCHI2_ORIVX):                  3.1763                  2.6358   [                 -6.8313                  11.133 ]
+                         :    log(K_IPCHI2_OWNPV):                  4.9637                  1.7075   [                  1.3869                  11.241 ]
+                         :            log(pi1_PT):                  7.0153                 0.92321   [                  4.6053                  9.6128 ]
+                         :  log(pi1_IPCHI2_OWNPV):                  5.1236                  1.8272   [                  1.3863                  10.700 ]
+                         :            log(pi2_PT):                  7.0560                 0.93664   [                  4.6067                  9.6837 ]
+                         :  log(pi2_IPCHI2_OWNPV):                  5.1294                  1.8356   [                  1.3865                  11.113 ]
+                         :              log(p_PT):                  7.7622                 0.68430   [                  4.8905                  9.7989 ]
+                         :           log(pbar_PT):                  7.7940                 0.66660   [                  5.1399                  10.011 ]
+                         :             log(pi_PT):                  6.9316                 0.91215   [                  4.6059                  9.6486 ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------
+                         : Preparing the Decorrelation transformation...
+TFHandler_Factory        :               Variable                      Mean                      RMS              [        Min                      Max ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------
+                         :   log(B0_IPCHI2_OWNPV):                  1.8657                  1.0000   [                 -6.5915                  3.9167 ]
+                         : log(B0_ENDVERTEX_CHI2):                  1.3999                  1.0000   [                 -3.3064                  4.1066 ]
+                         :  log(D_ENDVERTEX_CHI2):                 0.59998                  1.0000   [                 -6.5449                  2.4009 ]
+                         :    log(D_FDCHI2_ORIVX):                -0.71551                  1.0000   [                 -5.2188                  2.2252 ]
+                         :    log(K_IPCHI2_OWNPV):                  2.3964                  1.0000   [                -0.28841                  6.4793 ]
+                         :            log(pi1_PT):                  7.1408                  1.0000   [                  4.4411                  10.433 ]
+                         :  log(pi1_IPCHI2_OWNPV):                  1.2037                  1.0000   [                 -1.9276                  5.0740 ]
+                         :            log(pi2_PT):                  6.8772                  1.0000   [                  4.2479                  9.8767 ]
+                         :  log(pi2_IPCHI2_OWNPV):                  1.4161                  1.0000   [                 -1.6321                  5.1103 ]
+                         :              log(p_PT):                  9.7314                  1.0000   [                  5.5015                  13.012 ]
+                         :           log(pbar_PT):                  10.090                  1.0000   [                  6.0592                  13.408 ]
+                         :             log(pi_PT):                  6.4481                  1.0000   [                  3.6960                  9.2784 ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------
+                         : Preparing the Principle Component (PCA) transformation...
+TFHandler_Factory        :               Variable                      Mean                      RMS              [        Min                      Max ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------
+                         :   log(B0_IPCHI2_OWNPV):                  1.3518                  3.2428   [                 -8.2400                  11.233 ]
+                         : log(B0_ENDVERTEX_CHI2):               -0.013662                  1.6445   [                 -6.6633                  10.394 ]
+                         :  log(D_ENDVERTEX_CHI2):              -0.0049792                  1.4612   [                 -5.9127                  4.9302 ]
+                         :    log(D_FDCHI2_ORIVX):               -0.079050                  1.3947   [                 -5.2319                  5.6661 ]
+                         :    log(K_IPCHI2_OWNPV):                 0.34324                  1.4191   [                 -3.6941                  11.441 ]
+                         :            log(pi1_PT):               -0.033821                  1.0215   [                 -6.5494                  2.8185 ]
+                         :  log(pi1_IPCHI2_OWNPV):               -0.015957                 0.91480   [                 -3.8753                  3.1519 ]
+                         :            log(pi2_PT):                0.099065                 0.88275   [                 -3.2814                  3.3691 ]
+                         :  log(pi2_IPCHI2_OWNPV):                0.013323                 0.89065   [                 -2.9352                  2.8422 ]
+                         :              log(p_PT):               -0.072998                 0.81034   [                 -3.5942                  2.5934 ]
+                         :           log(pbar_PT):                0.066832                 0.69360   [                 -2.3469                  2.8792 ]
+                         :             log(pi_PT):              -0.0015142                 0.57328   [                 -2.2845                  2.0731 ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------
+                         : Preparing the Gaussian transformation...
+                         : Preparing the Decorrelation transformation...
+TFHandler_Factory        :               Variable                      Mean                      RMS              [        Min                      Max ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------
+                         :   log(B0_IPCHI2_OWNPV):               0.0057289                  1.0000   [                 -3.9841                  4.0142 ]
+                         : log(B0_ENDVERTEX_CHI2):                0.010063                  1.0000   [                 -3.6257                  5.8498 ]
+                         :  log(D_ENDVERTEX_CHI2):               0.0061570                  1.0000   [                 -3.6327                  5.8512 ]
+                         :    log(D_FDCHI2_ORIVX):               0.0014988                  1.0000   [                 -4.5349                  6.0726 ]
+                         :    log(K_IPCHI2_OWNPV):              -0.0069995                  1.0000   [                 -3.9446                  6.5438 ]
+                         :            log(pi1_PT):             -0.00067088                  1.0000   [                 -3.7784                  6.1183 ]
+                         :  log(pi1_IPCHI2_OWNPV):              -0.0039514                  1.0000   [                 -4.3991                  7.0596 ]
+                         :            log(pi2_PT):               0.0020655                  1.0000   [                 -3.4157                  5.7375 ]
+                         :  log(pi2_IPCHI2_OWNPV):              -0.0041371                  1.0000   [                 -3.6679                  6.6337 ]
+                         :              log(p_PT):              0.00045146                  1.0000   [                 -3.3014                  6.1564 ]
+                         :           log(pbar_PT):               0.0016409                  1.0000   [                 -3.4021                  5.6540 ]
+                         :             log(pi_PT):              0.00027477                  1.0000   [                 -3.3361                  5.6428 ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------
+                         : Ranking input variables (method unspecific)...
+IdTransformation         : Ranking result (top variable is best ranked)
+                         : ------------------------------------------
+                         : Rank : Variable          : Separation
+                         : ------------------------------------------
+                         :    1 : B0_IPCHI2_OWNPV   : 3.868e-01
+                         :    2 : D_FDCHI2_ORIVX    : 3.536e-01
+                         :    3 : pi2_IPCHI2_OWNPV  : 2.059e-01
+                         :    4 : pi1_IPCHI2_OWNPV  : 2.048e-01
+                         :    5 : B0_ENDVERTEX_CHI2 : 1.745e-01
+                         :    6 : K_IPCHI2_OWNPV    : 1.327e-01
+                         :    7 : p_PT              : 1.257e-01
+                         :    8 : pbar_PT           : 1.006e-01
+                         :    9 : D_ENDVERTEX_CHI2  : 4.977e-02
+                         :   10 : pi_PT             : 3.663e-02
+                         :   11 : pi2_PT            : 3.404e-02
+                         :   12 : pi1_PT            : 2.578e-02
+                         : ------------------------------------------
+Factory                  : Train method: BDT for Classification
+                         : 
+BDT                      : #events: (reweighted) sig: 7508.5 bkg: 7508.5
+                         : #events: (unweighted) sig: 2734 bkg: 12283
+                         : Training 250 Decision Trees ... patience please
+0%, time left: unknown
+6%, time left: 1 sec
+13%, time left: 1 sec
+19%, time left: 1 sec
+25%, time left: 1 sec
+32%, time left: 0 sec
+38%, time left: 0 sec
+44%, time left: 0 sec
+50%, time left: 0 sec
+56%, time left: 0 sec
+63%, time left: 0 sec
+69%, time left: 0 sec
+75%, time left: 0 sec
+82%, time left: 0 sec
+88%, time left: 0 sec
+94%, time left: 0 sec
+                         : Elapsed time for training with 15017 events: 1.46 sec         
+BDT                      : [dataset] : Evaluation of BDT on training sample (15017 events)
+0%, time left: unknown
+6%, time left: 0 sec
+12%, time left: 0 sec
+18%, time left: 0 sec
+25%, time left: 0 sec
+31%, time left: 0 sec
+37%, time left: 0 sec
+43%, time left: 0 sec
+50%, time left: 0 sec
+56%, time left: 0 sec
+62%, time left: 0 sec
+68%, time left: 0 sec
+75%, time left: 0 sec
+81%, time left: 0 sec
+87%, time left: 0 sec
+93%, time left: 0 sec
+                         : Elapsed time for evaluation of 15017 events: 0.17 sec       
+                         : Creating xml weight file: [0;36mdataset/weights/TMVAClassification_BDT.weights.xml[0m
+                         : Creating standalone class: [0;36mdataset/weights/TMVAClassification_BDT.class.C[0m
+                         : TMVA.root:/dataset/Method_BDT/BDT
+Factory                  : Training finished
+                         : 
+                         : Ranking input variables (method specific)...
+BDT                      : Ranking result (top variable is best ranked)
+                         : --------------------------------------------------------
+                         : Rank : Variable               : Variable Importance
+                         : --------------------------------------------------------
+                         :    1 : log(B0_IPCHI2_OWNPV)   : 1.192e-01
+                         :    2 : log(D_FDCHI2_ORIVX)    : 1.047e-01
+                         :    3 : log(B0_ENDVERTEX_CHI2) : 9.106e-02
+                         :    4 : log(pi2_IPCHI2_OWNPV)  : 8.601e-02
+                         :    5 : log(pi1_IPCHI2_OWNPV)  : 8.143e-02
+                         :    6 : log(pi_PT)             : 8.006e-02
+                         :    7 : log(p_PT)              : 7.806e-02
+                         :    8 : log(pi2_PT)            : 7.791e-02
+                         :    9 : log(pbar_PT)           : 7.663e-02
+                         :   10 : log(K_IPCHI2_OWNPV)    : 7.251e-02
+                         :   11 : log(D_ENDVERTEX_CHI2)  : 6.958e-02
+                         :   12 : log(pi1_PT)            : 6.285e-02
+                         : --------------------------------------------------------
+Factory                  : === Destroy and recreate all methods via weight files for testing ===
+                         : 
+                         : Reading weight file: [0;36mdataset/weights/TMVAClassification_BDT.weights.xml[0m
+Factory                  : [1mTest all methods[0m
+Factory                  : Test method: BDT for Classification performance
+                         : 
+BDT                      : [dataset] : Evaluation of BDT on testing sample (15017 events)
+0%, time left: unknown
+6%, time left: 0 sec
+12%, time left: 0 sec
+18%, time left: 0 sec
+25%, time left: 0 sec
+31%, time left: 0 sec
+37%, time left: 0 sec
+43%, time left: 0 sec
+50%, time left: 0 sec
+56%, time left: 0 sec
+62%, time left: 0 sec
+68%, time left: 0 sec
+75%, time left: 0 sec
+81%, time left: 0 sec
+87%, time left: 0 sec
+93%, time left: 0 sec
+                         : Elapsed time for evaluation of 15017 events: 0.28 sec       
+Factory                  : [1mEvaluate all methods[0m
+Factory                  : Evaluate classifier: BDT
+                         : 
+BDT                      : [dataset] : Loop over test events and fill histograms with classifier response...
+                         : 
+TFHandler_BDT            :               Variable                      Mean                      RMS              [        Min                      Max ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------
+                         :   log(B0_IPCHI2_OWNPV):                  1.3298                  1.3703   [                 -8.9965                  2.9957 ]
+                         : log(B0_ENDVERTEX_CHI2):                  1.9741                 0.89420   [                 -2.3035                  3.8028 ]
+                         :  log(D_ENDVERTEX_CHI2):                  1.1247                  1.0211   [                 -6.1176                  2.7079 ]
+                         :    log(D_FDCHI2_ORIVX):                  2.2158                  2.3644   [                 -6.2075                  10.559 ]
+                         :    log(K_IPCHI2_OWNPV):                  4.5764                  1.6316   [                  1.3870                  10.400 ]
+                         :            log(pi1_PT):                  6.9673                 0.96376   [                  4.6060                  9.6891 ]
+                         :  log(pi1_IPCHI2_OWNPV):                  4.5850                  1.7685   [                  1.3864                  11.807 ]
+                         :            log(pi2_PT):                  6.9741                 0.98613   [                  4.6057                  9.4888 ]
+                         :  log(pi2_IPCHI2_OWNPV):                  4.5614                  1.7676   [                  1.3865                  10.798 ]
+                         :              log(p_PT):                  7.6399                 0.73066   [                  5.0449                  9.9710 ]
+                         :           log(pbar_PT):                  7.6675                 0.69845   [                  5.1364                  9.8091 ]
+                         :             log(pi_PT):                  6.8568                 0.95897   [                  4.6055                  9.4496 ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : dataset       BDT            : 0.969
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : dataset              BDT            : 0.508 (0.518)       0.922 (0.919)      0.986 (0.986)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+Dataset:dataset          : Created tree 'TestTree' with 15017 events
+                         : 
+Dataset:dataset          : Created tree 'TrainTree' with 15017 events
+                         : 
+Factory                  : [1mThank you for using TMVA![0m
+                         : [1mFor citation information, please visit: http://tmva.sf.net/citeTMVA.html[0m
+==> Wrote root file: TMVA.root
+==> TMVAClassification is done!
+--- Launch TMVA GUI to view input file: TMVA.root
+=== Note: inactive buttons indicate classifiers that were not trained, ===
+===       or functionalities that were not invoked during the training ===
+(int) 0

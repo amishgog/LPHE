@@ -1,0 +1,11 @@
+- The current file structure is not the one that was initally used to run the PIDCorr.py, it has been re-organised for a better workflow
+
+- You need to move the files around to successfully run the PID correction script
+
+- There are also temp files created with random names so feel free to modify the code to make the names of the files more sensible 
+
+- If you want to run the "PIDCorr.py" script move the python file into the root folder outside the script dir alongside the input files "mv B2Dpppi_PIDCorr.py ../root/" and then execute the script.
+
+- I have tried running the script while taking the files structure into account and tried relative/absolute paths but they always show a "FileNotFoundError", the reason for this is not known to me but I suspect it is some internal hardcoding of the file paths.
+
+- If you want to run it then follow the steps above and keep in mind that the files would not be re-created if you ever want to run the PIDCorr script again so remove the files from their existing folders and then run the program.

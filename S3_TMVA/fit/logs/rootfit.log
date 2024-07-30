@@ -1,0 +1,393 @@
+
+Processing fitB0.C...
+[#1] INFO:DataHandling -- RooAbsReal::attachToTree(BDT) TTree Float_t branch BDT will be converted to double precision.
+[#1] INFO:DataHandling -- RooTreeDataStore::loadValues(data) Skipping event #1 because B0_PVDFit_M cannot accommodate the value 4946.09
+[#1] INFO:DataHandling -- RooTreeDataStore::loadValues(data) Skipping event #2 because B0_PVDFit_M cannot accommodate the value 5131.8
+[#1] INFO:DataHandling -- RooTreeDataStore::loadValues(data) Skipping event #3 because B0_PVFit_Dplus_M cannot accommodate the value 1818.24
+[#1] INFO:DataHandling -- RooTreeDataStore::loadValues(data) Skipping event #4 because B0_PVDFit_M cannot accommodate the value 5116.23
+[#1] INFO:DataHandling -- RooTreeDataStore::loadValues(data) Skipping ...
+[#0] WARNING:DataHandling -- RooTreeDataStore::loadValues(data) Ignored 220731 out-of-range events
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) fixing normalization set for coefficient determination to observables in data
+[#1] INFO:Fitting -- using CPU computation library compiled with -mavx2
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_model_data) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+Minuit2Minimizer: Minimize with max-calls 4000 convergence for edm < 1 strategy 1
+Info in <Minuit2>: MnSeedGenerator Computing seed using NumericalGradient calculator
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(Bsig_Int[B0_PVDFit_M]) using numeric integrator RooIntegrator1D to calculate Int(B0_PVDFit_M)
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-239683) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	a0=6.78705	a1=-0.06	a2=-0.003	mean=5279	nbkg=50000	nsig=40000	sigma=10	sigmaGauss=10
+RooAbsPdf::bkgpdf_over_bkgpdf_Int[B0_PVDFit_M][ numerator=bkgpdf denominator=bkgpdf_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+    ... (remaining 2038 messages suppressed)
+RooAddPdf::model[ nsig * Bsig_over_Bsig_Int[B0_PVDFit_M] + nbkg * bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+    ... (remaining 2038 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-239683) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	a0=-6.81698	a1=-0.06	a2=-0.003	mean=5279	nbkg=50000	nsig=40000	sigma=10	sigmaGauss=10
+RooAbsPdf::bkgpdf_over_bkgpdf_Int[B0_PVDFit_M][ numerator=bkgpdf denominator=bkgpdf_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+    ... (remaining 2038 messages suppressed)
+RooAddPdf::model[ nsig * Bsig_over_Bsig_Int[B0_PVDFit_M] + nbkg * bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+    ... (remaining 2038 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-237523) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	a0=-0.015	a1=6.74215	a2=-0.003	mean=5279	nbkg=50000	nsig=40000	sigma=10	sigmaGauss=10
+RooAbsPdf::bkgpdf_over_bkgpdf_Int[B0_PVDFit_M][ numerator=bkgpdf denominator=bkgpdf_Int[B0_PVDFit_M] ]
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+     p.d.f normalization integral is zero or negative @ numerator=bkgpdf=-5.74215, denominator=bkgpdf_Int[B0_PVDFit_M]=-249.477
+    ... (remaining 2038 messages suppressed)
+RooAddPdf::model[ nsig * Bsig_over_Bsig_Int[B0_PVDFit_M] + nbkg * bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = nan), !coefficients=(nsig = 40000,nbkg = 50000)
+    ... (remaining 2038 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-237523) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	a0=-0.015	a1=-6.86187	a2=-0.003	mean=5279	nbkg=50000	nsig=40000	sigma=10	sigmaGauss=10
+RooAbsPdf::bkgpdf_over_bkgpdf_Int[B0_PVDFit_M][ numerator=bkgpdf denominator=bkgpdf_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=7.86187, denominator=bkgpdf_Int[B0_PVDFit_M]=657.458
+    ... (remaining 1393 messages suppressed)
+RooAddPdf::model[ nsig * Bsig_over_Bsig_Int[B0_PVDFit_M] + nbkg * bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.011958), !coefficients=(nsig = 40000,nbkg = 50000)
+    ... (remaining 1599 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-234952) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	a0=-0.015	a1=-0.06	a2=6.79902	mean=5279	nbkg=50000	nsig=40000	sigma=10	sigmaGauss=10
+RooAbsPdf::bkgpdf_over_bkgpdf_Int[B0_PVDFit_M][ numerator=bkgpdf denominator=bkgpdf_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+    ... (remaining 2038 messages suppressed)
+RooAddPdf::model[ nsig * Bsig_over_Bsig_Int[B0_PVDFit_M] + nbkg * bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+    ... (remaining 2038 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-234952) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	a0=-0.015	a1=-0.06	a2=-6.805	mean=5279	nbkg=50000	nsig=40000	sigma=10	sigmaGauss=10
+RooAbsPdf::bkgpdf_over_bkgpdf_Int[B0_PVDFit_M][ numerator=bkgpdf denominator=bkgpdf_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.06, denominator=bkgpdf_Int[B0_PVDFit_M]=204
+    ... (remaining 2038 messages suppressed)
+RooAddPdf::model[ nsig * Bsig_over_Bsig_Int[B0_PVDFit_M] + nbkg * bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0076624,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00519608), !coefficients=(nsig = 40000,nbkg = 50000)
+    ... (remaining 2038 messages suppressed)
+
+Info in <Minuit2>: MnSeedGenerator Initial state: FCN =      -239682.9773 Edm =       52021.30141 NCalls =     39
+Info in <Minuit2>: MnSeedGenerator Initial state  
+  Minimum value : -239682.9773
+  Edm           : 52021.30141
+  Internal parameters:	[ -0.0001500000006  -0.000600000036           -3e-05   -0.06671614841     -1.119769515    -0.2013579208    -0.3398369095    -0.3398369095]	
+  Internal gradient  :	[      228912.5026       446834.124     -471987.2372     -2194.460152      151066.9875      8873.793372      7092.930844      12346.05236]	
+  Internal covariance matrix:
+[[  9.4135983e-08              0              0              0              0              0              0              0]
+ [              0  3.7556213e-08              0              0              0              0              0              0]
+ [              0              0  6.2933745e-08              0              0              0              0              0]
+ [              0              0              0  5.8613624e-05              0              0              0              0]
+ [              0              0              0              0  4.4375451e-06              0              0              0]
+ [              0              0              0              0              0  5.1433441e-05              0              0]
+ [              0              0              0              0              0              0   0.0011313661              0]
+ [              0              0              0              0              0              0              0  0.00012539123]]]
+Info in <Minuit2>: VariableMetricBuilder Start iterating until Edm is < 0.001 with call limit = 4000
+Info in <Minuit2>: VariableMetricBuilder    0 - FCN =      -239682.9773 Edm =       52021.30141 NCalls =     39
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-233263) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	a0=-1.09242	a1=-0.899058	a2=1.48214	mean=5279.96	nbkg=3351.18	nsig=29176.3	sigma=29.0374	sigmaGauss=1.53874
+RooAbsPdf::bkgpdf_over_bkgpdf_Int[B0_PVDFit_M][ numerator=bkgpdf denominator=bkgpdf_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.89906, denominator=bkgpdf_Int[B0_PVDFit_M]=259.937
+    ... (remaining 1424 messages suppressed)
+RooAddPdf::model[ nsig * Bsig_over_Bsig_Int[B0_PVDFit_M] + nbkg * bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00839794,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00730583), !coefficients=(nsig = 29176.3,nbkg = 3351.18)
+    ... (remaining 1616 messages suppressed)
+
+Info in <Minuit2>: VariableMetricBuilder    1 - FCN =      -262481.9556 Edm =       11823.64304 NCalls =     69
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-233263) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	a0=-0.0923417	a1=-0.865369	a2=0.615249	mean=5282.07	nbkg=6201.34	nsig=28890.6	sigma=26.1161	sigmaGauss=14.8805
+RooAbsPdf::bkgpdf_over_bkgpdf_Int[B0_PVDFit_M][ numerator=bkgpdf denominator=bkgpdf_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.86537, denominator=bkgpdf_Int[B0_PVDFit_M]=257.691
+    ... (remaining 18 messages suppressed)
+RooAddPdf::model[ nsig * Bsig_over_Bsig_Int[B0_PVDFit_M] + nbkg * bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.0114671,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00723877), !coefficients=(nsig = 28890.6,nbkg = 6201.34)
+    ... (remaining 169 messages suppressed)
+
+Info in <Minuit2>: VariableMetricBuilder    2 - FCN =      -264191.1046 Edm =       8347.670903 NCalls =     89
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-233263) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	a0=-0.0509325	a1=-0.733252	a2=0.491456	mean=5281.4	nbkg=7044.27	nsig=33215	sigma=0.280014	sigmaGauss=9.0544
+RooAbsPdf::bkgpdf_over_bkgpdf_Int[B0_PVDFit_M][ numerator=bkgpdf denominator=bkgpdf_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.73325, denominator=bkgpdf_Int[B0_PVDFit_M]=248.883
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.73325, denominator=bkgpdf_Int[B0_PVDFit_M]=248.883
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.73325, denominator=bkgpdf_Int[B0_PVDFit_M]=248.883
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.73325, denominator=bkgpdf_Int[B0_PVDFit_M]=248.883
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.73325, denominator=bkgpdf_Int[B0_PVDFit_M]=248.883
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.73325, denominator=bkgpdf_Int[B0_PVDFit_M]=248.883
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.73325, denominator=bkgpdf_Int[B0_PVDFit_M]=248.883
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.73325, denominator=bkgpdf_Int[B0_PVDFit_M]=248.883
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.73325, denominator=bkgpdf_Int[B0_PVDFit_M]=248.883
+     p.d.f value is less than zero, trying to recover @ numerator=bkgpdf=1.73325, denominator=bkgpdf_Int[B0_PVDFit_M]=248.883
+RooAddPdf::model[ nsig * Bsig_over_Bsig_Int[B0_PVDFit_M] + nbkg * bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVDFit_M = 5300), !pdfs=(Bsig_over_Bsig_Int[B0_PVDFit_M] = 0.00549815,bkgpdf_over_bkgpdf_Int[B0_PVDFit_M] = 0.00696411), !coefficients=(nsig = 33215,nbkg = 7044.27)
+    ... (remaining 95 messages suppressed)
+
+Info in <Minuit2>: VariableMetricBuilder    3 - FCN =       -264858.424 Edm =       2676.235904 NCalls =    107
+Info in <Minuit2>: VariableMetricBuilder    4 - FCN =      -266934.4307 Edm =       220.2304789 NCalls =    125
+Info in <Minuit2>: VariableMetricBuilder    5 - FCN =      -267035.0364 Edm =         26.988553 NCalls =    143
+Info in <Minuit2>: VariableMetricBuilder    6 - FCN =      -267090.2203 Edm =       15.80454616 NCalls =    162
+Info in <Minuit2>: VariableMetricBuilder    7 - FCN =      -267103.8536 Edm =       6.487860173 NCalls =    180
+Info in <Minuit2>: VariableMetricBuilder    8 - FCN =      -267127.2618 Edm =       21.10941982 NCalls =    201
+Info in <Minuit2>: VariableMetricBuilder    9 - FCN =      -267158.9524 Edm =       11.73271151 NCalls =    221
+Info in <Minuit2>: VariableMetricBuilder   10 - FCN =      -267173.2351 Edm =       12.52629361 NCalls =    240
+Info in <Minuit2>: VariableMetricBuilder   11 - FCN =      -267179.7164 Edm =       3.275832618 NCalls =    258
+Info in <Minuit2>: VariableMetricBuilder   12 - FCN =      -267184.3799 Edm =      0.6029241902 NCalls =    276
+Info in <Minuit2>: VariableMetricBuilder   13 - FCN =      -267185.7841 Edm =      0.4525939519 NCalls =    294
+Info in <Minuit2>: VariableMetricBuilder   14 - FCN =      -267187.3069 Edm =     0.09448258543 NCalls =    313
+Info in <Minuit2>: VariableMetricBuilder   15 - FCN =       -267187.458 Edm =     0.05124788163 NCalls =    331
+Info in <Minuit2>: VariableMetricBuilder   16 - FCN =      -267187.5273 Edm =     0.02402951086 NCalls =    349
+Info in <Minuit2>: VariableMetricBuilder   17 - FCN =      -267187.5717 Edm =    0.002691225977 NCalls =    367
+Info in <Minuit2>: VariableMetricBuilder   18 - FCN =      -267187.5759 Edm =   0.0003960664087 NCalls =    385
+Info in <Minuit2>: VariableMetricBuilder After Hessian
+Info in <Minuit2>: VariableMetricBuilder   19 - FCN =      -267187.5759 Edm =    0.001766435749 NCalls =    452
+Warning in <Minuit2>: VariableMetricBuilder Reached machine accuracy limit; Edm 0.00176644 is smaller than machine limit 0.0159256 while 0.001 was requested
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -267187.575851071044
+Edm   = 0.00176643574911994924
+Nfcn  = 452
+a0	  = -0.272368	 +/-  0.0384828	(limited)
+a1	  = 0.306879	 +/-  0.105243	(limited)
+a2	  = -0.00530497	 +/-  0.0593415	(limited)
+mean	  = 5280.05	 +/-  0.0531357	(limited)
+nbkg	  = 3863.97	 +/-  404.937	(limited)
+nsig	  = 44233.5	 +/-  451.418	(limited)
+sigma	  = 7.42098	 +/-  0.46588	(limited)
+sigmaGauss	  = 6.9464	 +/-  0.170525	(limited)
+Info in <Minuit2>: Minuit2Minimizer::Hesse Using max-calls 4000
+Info in <Minuit2>: Minuit2Minimizer::Hesse Hesse is valid - matrix is accurate
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: -267188, estimated distance to minimum: 0.00176813
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+                    a0   -1.5000e-02   -2.7237e-01 +/-  3.84e-02  <none>
+                    a1   -6.0000e-02    3.0688e-01 +/-  9.46e-02  <none>
+                    a2   -3.0000e-03   -5.3050e-03 +/-  5.59e-02  <none>
+                  mean    5.2790e+03    5.2801e+03 +/-  5.31e-02  <none>
+                  nbkg    5.0000e+04    3.8640e+03 +/-  3.64e+02  <none>
+                  nsig    4.0000e+04    4.4233e+04 +/-  4.16e+02  <none>
+                 sigma    1.0000e+01    7.4210e+00 +/-  4.23e-01  <none>
+            sigmaGauss    1.0000e+01    6.9464e+00 +/-  1.58e-01  <none>
+
+Mean  = 5280.05+/-0.0530945
+Sigma = 6.9464+/-0.158274
+Mean(+/- 5.0*Sigma) = 5245.32, 5314.78
+[#1] INFO:Eval -- RooRealVar::setRange(B0_PVDFit_M) new range named 'signal' created with bounds [5245.32,5314.78]
+[#1] INFO:Eval -- RooRealVar::setRange(B0_PVDFit_M) new range named 'bkg' created with bounds [5313.37,5400]
+int BKG tot, sig = 1, 0.307218
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(Bsig_Int[B0_PVDFit_M]) using numeric integrator RooIntegrator1D to calculate Int(B0_PVDFit_M)
+int SIG tot, sig = [#1] INFO:NumericIntegration -- RooRealIntegral::init(Bsig_Int[B0_PVDFit_M]_Norm[B0_PVDFit_M]) using numeric integrator RooIntegrator1D to calculate Int(B0_PVDFit_M)
+1, [#1] INFO:NumericIntegration -- RooRealIntegral::init(Bsig_Int[B0_PVDFit_M|signal]_Norm[B0_PVDFit_M]) using numeric integrator RooIntegrator1D to calculate Int(B0_PVDFit_M)
+0.95276
+int BKG sb = 0.375017
+background events in signal region 1187.08 +/- 111.867
+background events in sideband region 1449.05 +/- 136.555
+signal events in signal region 42143.9 +/- 396.18
+Purity in signal range = 97.2604%
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(Bsig_Int[B0_PVDFit_M]) using numeric integrator RooIntegrator1D to calculate Int(B0_PVDFit_M)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (Bsig)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(Bsig_Int[B0_PVDFit_M]) using numeric integrator RooIntegrator1D to calculate Int(B0_PVDFit_M)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bkgpdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(Bsig_Int[B0_PVDFit_M]) using numeric integrator RooIntegrator1D to calculate Int(B0_PVDFit_M)
+Info in <TCanvas::Print>: file ../plots/Plot_fit_B0.png has been created

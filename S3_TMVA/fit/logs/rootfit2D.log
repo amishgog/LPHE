@@ -1,0 +1,447 @@
+
+Processing fit2D.C...
+Applied cut: ((B0_PVDFit_M >5200.00 && B0_PVDFit_M < 5400.00)&&(B0_PVFit_Dplus_M > 1820.00 && B0_PVFit_Dplus_M < 1920))&&(BDT > -0.14)
+[#0] WARNING:InputArguments -- The parameter 'Dgausswidth' with range [0, 20] of the RooGaussian 'DGauss' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) fixing normalization set for coefficient determination to observables in data
+[#1] INFO:Fitting -- using CPU computation library compiled with -mavx2
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_model_data) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+Minuit2Minimizer: Minimize with max-calls 7500 convergence for edm < 1 strategy 1
+Info in <Minuit2>: MnSeedGenerator Computing seed using NumericalGradient calculator
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(Bsig_Int[B0_PVDFit_M]) using numeric integrator RooIntegrator1D to calculate Int(B0_PVDFit_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init([DGauss_over_DGauss_Int[B0_PVFit_Dplus_M]_X_DBW_over_DBW_Int[B0_PVFit_Dplus_M]]_Norm[B0_PVFit_Dplus_M]_denominator_Int[B0_PVFit_Dplus_M]) using numeric integrator RooIntegrator1D to calculate Int(B0_PVFit_Dplus_M)
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-60160.7) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	BBWgamma=10	BBWmean=5279	BGausssigma=10	Ba0=3.4031	Ba1=-0.06	DBWgamma=10	DBWmean=1869.66	DGaussmean=1869.66	Da0=-0.015	Da1=-0.06	Dgausswidth=10	nDbkgBbkg=5000	nDbkgBsig=5000	nDsigBbkg=10000	nDsigBsig=10000
+RooAbsPdf::Bbkg_over_Bbkg_Int[B0_PVDFit_M][ numerator=Bbkg denominator=Bbkg_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+    ... (remaining 2038 messages suppressed)
+RooAddPdf::model[ nDsigBsig * DsigBsig + nDsigBbkg * DsigBbkg + nDbkgBsig * DbkgBsig + nDbkgBbkg * DbkgBbkg ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+    ... (remaining 2038 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-60160.7) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	BBWgamma=10	BBWmean=5279	BGausssigma=10	Ba0=-3.43308	Ba1=-0.06	DBWgamma=10	DBWmean=1869.66	DGaussmean=1869.66	Da0=-0.015	Da1=-0.06	Dgausswidth=10	nDbkgBbkg=5000	nDbkgBsig=5000	nDsigBbkg=10000	nDsigBsig=10000
+RooAbsPdf::Bbkg_over_Bbkg_Int[B0_PVDFit_M][ numerator=Bbkg denominator=Bbkg_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.06, denominator=Bbkg_Int[B0_PVDFit_M]=204
+    ... (remaining 2038 messages suppressed)
+RooAddPdf::model[ nDsigBsig * DsigBsig + nDsigBbkg * DsigBbkg + nDbkgBsig * DbkgBsig + nDbkgBbkg * DbkgBbkg ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+    ... (remaining 2038 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-59542.8) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	BBWgamma=10	BBWmean=5279	BGausssigma=10	Ba0=-0.015	Ba1=3.35812	DBWgamma=10	DBWmean=1869.66	DGaussmean=1869.66	Da0=-0.015	Da1=-0.06	Dgausswidth=10	nDbkgBbkg=5000	nDbkgBsig=5000	nDsigBbkg=10000	nDsigBsig=10000
+RooAbsPdf::Bbkg_over_Bbkg_Int[B0_PVDFit_M][ numerator=Bbkg denominator=Bbkg_Int[B0_PVDFit_M] ]
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+     p.d.f normalization integral is zero or negative @ numerator=Bbkg=-2.35812, denominator=Bbkg_Int[B0_PVDFit_M]=-23.8748
+    ... (remaining 2038 messages suppressed)
+RooAddPdf::model[ nDsigBsig * DsigBsig + nDsigBbkg * DsigBbkg + nDbkgBsig * DbkgBsig + nDbkgBbkg * DbkgBbkg ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0,DbkgBsig = 7.96289e-05,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+    ... (remaining 2038 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-59542.8) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	BBWgamma=10	BBWmean=5279	BGausssigma=10	Ba0=-0.015	Ba1=-3.47805	DBWgamma=10	DBWmean=1869.66	DGaussmean=1869.66	Da0=-0.015	Da1=-0.06	Dgausswidth=10	nDbkgBbkg=5000	nDbkgBsig=5000	nDsigBbkg=10000	nDsigBsig=10000
+RooAbsPdf::Bbkg_over_Bbkg_Int[B0_PVDFit_M][ numerator=Bbkg denominator=Bbkg_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=4.47805, denominator=Bbkg_Int[B0_PVDFit_M]=431.87
+    ... (remaining 1439 messages suppressed)
+RooAddPdf::model[ nDsigBsig * DsigBsig + nDsigBbkg * DsigBbkg + nDbkgBsig * DbkgBsig + nDbkgBbkg * DbkgBbkg ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000939159,DbkgBsig = 7.96289e-05,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+    ... (remaining 1645 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-58852.8) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	BBWgamma=10	BBWmean=5279	BGausssigma=10	Ba0=-0.015	Ba1=-0.06	DBWgamma=10	DBWmean=1869.66	DGaussmean=1869.66	Da0=3.4031	Da1=-0.06	Dgausswidth=10	nDbkgBbkg=5000	nDbkgBsig=5000	nDsigBbkg=10000	nDsigBsig=10000
+RooAddPdf::model[ nDsigBsig * DsigBsig + nDsigBbkg * DsigBbkg + nDbkgBsig * DbkgBsig + nDbkgBbkg * DbkgBbkg ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+    ... (remaining 2038 messages suppressed)
+RooAbsPdf::Dbkg_over_Dbkg_Int[B0_PVFit_Dplus_M][ numerator=Dbkg denominator=Dbkg_Int[B0_PVFit_Dplus_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+    ... (remaining 2038 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-58852.8) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	BBWgamma=10	BBWmean=5279	BGausssigma=10	Ba0=-0.015	Ba1=-0.06	DBWgamma=10	DBWmean=1869.66	DGaussmean=1869.66	Da0=-3.43308	Da1=-0.06	Dgausswidth=10	nDbkgBbkg=5000	nDbkgBsig=5000	nDsigBbkg=10000	nDsigBsig=10000
+RooAddPdf::model[ nDsigBsig * DsigBsig + nDsigBbkg * DsigBbkg + nDbkgBsig * DbkgBsig + nDbkgBbkg * DbkgBbkg ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 7.96289e-05,DbkgBbkg = 5.39985e-05), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+    ... (remaining 2038 messages suppressed)
+RooAbsPdf::Dbkg_over_Dbkg_Int[B0_PVFit_Dplus_M][ numerator=Dbkg denominator=Dbkg_Int[B0_PVFit_Dplus_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=1.06, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=102
+    ... (remaining 2038 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-58852.8) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	BBWgamma=10	BBWmean=5279	BGausssigma=10	Ba0=-0.015	Ba1=-0.06	DBWgamma=10	DBWmean=1869.66	DGaussmean=1869.66	Da0=-0.015	Da1=3.35812	Dgausswidth=10	nDbkgBbkg=5000	nDbkgBsig=5000	nDsigBbkg=10000	nDsigBsig=10000
+RooAddPdf::model[ nDsigBsig * DsigBsig + nDsigBbkg * DsigBbkg + nDbkgBsig * DbkgBsig + nDbkgBbkg * DbkgBbkg ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0,DbkgBbkg = 0), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+    ... (remaining 2038 messages suppressed)
+RooAbsPdf::Dbkg_over_Dbkg_Int[B0_PVFit_Dplus_M][ numerator=Dbkg denominator=Dbkg_Int[B0_PVFit_Dplus_M] ]
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+     p.d.f normalization integral is zero or negative @ numerator=Dbkg=-2.35812, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=-11.9374
+    ... (remaining 2038 messages suppressed)
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-58852.8) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	BBWgamma=10	BBWmean=5279	BGausssigma=10	Ba0=-0.015	Ba1=-0.06	DBWgamma=10	DBWmean=1869.66	DGaussmean=1869.66	Da0=-0.015	Da1=-3.47805	Dgausswidth=10	nDbkgBbkg=5000	nDbkgBsig=5000	nDsigBbkg=10000	nDsigBsig=10000
+RooAddPdf::model[ nDsigBsig * DsigBsig + nDsigBbkg * DsigBbkg + nDbkgBsig * DbkgBsig + nDbkgBbkg * DbkgBbkg ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000694014,DsigBbkg = 0.000470629,DbkgBsig = 0.000158903,DbkgBbkg = 0.000107756), !coefficients=(nDsigBsig = 10000,nDsigBbkg = 10000,nDbkgBsig = 5000,nDbkgBbkg = 5000)
+    ... (remaining 1635 messages suppressed)
+RooAbsPdf::Dbkg_over_Dbkg_Int[B0_PVFit_Dplus_M][ numerator=Dbkg denominator=Dbkg_Int[B0_PVFit_Dplus_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+     p.d.f value is less than zero, trying to recover @ numerator=Dbkg=4.47805, denominator=Dbkg_Int[B0_PVFit_Dplus_M]=215.935
+    ... (remaining 1444 messages suppressed)
+
+Info in <Minuit2>: MnSeedGenerator Initial state: FCN =      -60453.88502 Edm =      -190464.7825 NCalls =     69
+Info in <Minuit2>: NegativeG2LineSearch Doing a NegativeG2LineSearch since one of the G2 component is negative
+Info in <Minuit2>: MnSeedGenerator Negative G2 found - new state: 
+  Minimum value : -65013.91259
+  Edm           : 20137.38427
+  Internal parameters:	[     -1.572243938   -0.06671614841                0 -0.0001500000006  -0.000600000036                0   -0.01700081894   -0.01700081894 -0.0001500000006  -0.000600000036....      -0.927295218]	
+  Internal gradient  :	[     -5.651879494     -3874.166504      6514.678662       234787.355      358876.5904     -6386.483019     -3559.048991     -1181.561085        73439.485      328649.9032....       -47868.3039]	
+  Internal covariance matrix:
+[[  0.00051225816              0              0              0              0              0              0              0              0              0....               0]
+ [              0   3.555078e-05              0              0              0              0              0              0              0              0....               0]
+ [              0              0  8.1596556e-05              0              0              0              0              0              0              0....               0]
+ [              0              0              0   6.213343e-08              0              0              0              0              0              0....               0]
+ [              0              0              0              0  3.5645632e-08              0              0              0              0              0....               0]
+ [              0              0              0              0              0  0.00012402778              0              0              0              0....               0]
+ [              0              0              0              0              0              0  1.5173732e-05              0              0              0....               0]
+ [              0              0              0              0              0              0              0  9.5401468e-05              0              0....               0]
+ [              0              0              0              0              0              0              0              0  6.1734145e-08              0....               0]
+ [              0              0              0              0              0              0              0              0              0  4.0016127e-08....               0]
+....
+ [              0              0              0              0              0              0              0              0              0              0....   2.0146541e-05]]]
+Info in <Minuit2>: MnSeedGenerator Initial state  
+  Minimum value : -65013.91259
+  Edm           : 20137.38427
+  Internal parameters:	[     -1.572243938   -0.06671614841                0 -0.0001500000006  -0.000600000036                0   -0.01700081894   -0.01700081894 -0.0001500000006  -0.000600000036....      -0.927295218]	
+  Internal gradient  :	[     -5.651879494     -3874.166504      6514.678662       234787.355      358876.5904     -6386.483019     -3559.048991     -1181.561085        73439.485      328649.9032....       -47868.3039]	
+  Internal covariance matrix:
+[[  0.00051225816              0              0              0              0              0              0              0              0              0....               0]
+ [              0   3.555078e-05              0              0              0              0              0              0              0              0....               0]
+ [              0              0  8.1596556e-05              0              0              0              0              0              0              0....               0]
+ [              0              0              0   6.213343e-08              0              0              0              0              0              0....               0]
+ [              0              0              0              0  3.5645632e-08              0              0              0              0              0....               0]
+ [              0              0              0              0              0  0.00012402778              0              0              0              0....               0]
+ [              0              0              0              0              0              0  1.5173732e-05              0              0              0....               0]
+ [              0              0              0              0              0              0              0  9.5401468e-05              0              0....               0]
+ [              0              0              0              0              0              0              0              0  6.1734145e-08              0....               0]
+ [              0              0              0              0              0              0              0              0              0  4.0016127e-08....               0]
+....
+ [              0              0              0              0              0              0              0              0              0              0....   2.0146541e-05]]]
+Info in <Minuit2>: VariableMetricBuilder Start iterating until Edm is < 0.001 with call limit = 7500
+Info in <Minuit2>: VariableMetricBuilder    0 - FCN =      -65013.91259 Edm =       20137.38427 NCalls =    109
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-58852.8) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	BBWgamma=0	BBWmean=5280.03	BGausssigma=7.37331	Ba0=-0.7444	Ba1=-0.699613	DBWgamma=13.8578	DBWmean=1870.2	DGaussmean=1870.79	Da0=-0.241686	Da1=-0.717559	Dgausswidth=12.5666	nDbkgBbkg=7248.67	nDbkgBsig=9318.79	nDsigBbkg=9225.63	nDsigBsig=28472.4
+RooAbsPdf::Bbkg_over_Bbkg_Int[B0_PVDFit_M][ numerator=Bbkg denominator=Bbkg_Int[B0_PVDFit_M] ]
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+     p.d.f value is less than zero, trying to recover @ numerator=Bbkg=1.69961, denominator=Bbkg_Int[B0_PVDFit_M]=246.641
+    ... (remaining 116 messages suppressed)
+RooAddPdf::model[ nDsigBsig * DsigBsig + nDsigBbkg * DsigBbkg + nDbkgBsig * DbkgBsig + nDbkgBbkg * DbkgBbkg ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 9.36535e-05,DsigBbkg = 0.000466762,DbkgBsig = 1.91641e-05,DbkgBbkg = 9.55125e-05), !coefficients=(nDsigBsig = 28472.4,nDsigBbkg = 9225.63,nDbkgBsig = 9318.79,nDbkgBbkg = 7248.67)
+    ... (remaining 354 messages suppressed)
+
+Info in <Minuit2>: VariableMetricBuilder    1 - FCN =      -77145.41954 Edm =        4426.66757 NCalls =    145
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (-58852.8) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	BBWgamma=1.67934e-06	BBWmean=5280.44	BGausssigma=8.59752	Ba0=-0.516022	Ba1=-0.487845	DBWgamma=13.9201	DBWmean=1869.84	DGaussmean=1869.71	Da0=-0.299173	Da1=-0.639567	Dgausswidth=12.1481	nDbkgBbkg=7120.54	nDbkgBsig=6856.11	nDsigBbkg=5389.24	nDsigBsig=26914.2
+RooAddPdf::model[ nDsigBsig * DsigBsig + nDsigBbkg * DsigBbkg + nDbkgBsig * DbkgBsig + nDbkgBbkg * DbkgBbkg ]
+     getLogVal() top-level p.d.f evaluates to NaN @ !refCoefNorm=(B0_PVFit_Dplus_M = 1870,B0_PVDFit_M = 5300), !pdfs=(DsigBsig = 0.000238733,DsigBbkg = 0.000437895,DbkgBsig = 4.71449e-05,DbkgBbkg = 8.64754e-05), !coefficients=(nDsigBsig = 26914.2,nDsigBbkg = 5389.24,nDbkgBsig = 6856.11,nDbkgBbkg = 7120.54)
+
+Info in <Minuit2>: VariableMetricBuilder    2 - FCN =      -78486.89624 Edm =       3352.077302 NCalls =    177
+Info in <Minuit2>: VariableMetricBuilder    3 - FCN =      -83813.26243 Edm =       303.7551624 NCalls =    217
+Info in <Minuit2>: VariableMetricBuilder    4 - FCN =      -84153.72909 Edm =       219.8028785 NCalls =    250
+Info in <Minuit2>: VariableMetricBuilder    5 - FCN =      -84794.52227 Edm =       152.0902246 NCalls =    287
+Info in <Minuit2>: VariableMetricBuilder    6 - FCN =      -84952.97705 Edm =        51.8911413 NCalls =    319
+Info in <Minuit2>: VariableMetricBuilder    7 - FCN =      -84998.56369 Edm =       17.02871142 NCalls =    353
+Info in <Minuit2>: VariableMetricBuilder    8 - FCN =      -85017.51772 Edm =        6.32407909 NCalls =    387
+Info in <Minuit2>: VariableMetricBuilder    9 - FCN =      -85028.25504 Edm =       7.806567382 NCalls =    419
+Info in <Minuit2>: VariableMetricBuilder   10 - FCN =      -85043.79668 Edm =       5.229959288 NCalls =    454
+Info in <Minuit2>: VariableMetricBuilder   11 - FCN =      -85050.47196 Edm =       2.028268423 NCalls =    486
+Info in <Minuit2>: VariableMetricBuilder   12 - FCN =      -85052.36784 Edm =       0.383486268 NCalls =    520
+Info in <Minuit2>: VariableMetricBuilder   13 - FCN =      -85052.87348 Edm =      0.1580777292 NCalls =    552
+Info in <Minuit2>: VariableMetricBuilder   14 - FCN =      -85053.58896 Edm =      0.4568029627 NCalls =    585
+Info in <Minuit2>: VariableMetricBuilder   15 - FCN =      -85054.61883 Edm =      0.2394958899 NCalls =    617
+Info in <Minuit2>: VariableMetricBuilder   16 - FCN =      -85055.26423 Edm =      0.2452212977 NCalls =    649
+Info in <Minuit2>: VariableMetricBuilder   17 - FCN =      -85057.39967 Edm =       2.220114996 NCalls =    687
+Info in <Minuit2>: VariableMetricBuilder   18 - FCN =      -85059.08196 Edm =       3.092255015 NCalls =    724
+Info in <Minuit2>: VariableMetricBuilder   19 - FCN =       -85059.5741 Edm =      0.8993631121 NCalls =    759
+Info in <Minuit2>: VariableMetricBuilder   20 - FCN =      -85073.93271 Edm =       15.59710344 NCalls =    797
+Info in <Minuit2>: VariableMetricBuilder   21 - FCN =      -85074.60233 Edm =       1.284897914 NCalls =    830
+Info in <Minuit2>: VariableMetricBuilder   22 - FCN =      -85076.99344 Edm =       3.672028068 NCalls =    863
+Info in <Minuit2>: VariableMetricBuilder   23 - FCN =      -85085.55269 Edm =       6.072204789 NCalls =    899
+Info in <Minuit2>: VariableMetricBuilder   24 - FCN =      -85116.12131 Edm =       7.965133098 NCalls =    935
+Info in <Minuit2>: VariableMetricBuilder   25 - FCN =      -85131.91782 Edm =       4.644592063 NCalls =    969
+Info in <Minuit2>: VariableMetricBuilder   26 - FCN =      -85143.77438 Edm =       2.951697072 NCalls =   1001
+Info in <Minuit2>: VariableMetricBuilder   27 - FCN =       -85145.4716 Edm =       2.036559705 NCalls =   1033
+Info in <Minuit2>: VariableMetricBuilder   28 - FCN =      -85147.09278 Edm =      0.5731386504 NCalls =   1065
+Info in <Minuit2>: VariableMetricBuilder   29 - FCN =      -85148.12908 Edm =      0.2781198086 NCalls =   1097
+Info in <Minuit2>: VariableMetricBuilder   30 - FCN =      -85148.76979 Edm =      0.1447083534 NCalls =   1129
+Info in <Minuit2>: VariableMetricBuilder   31 - FCN =      -85149.04994 Edm =     0.04319768334 NCalls =   1162
+Info in <Minuit2>: VariableMetricBuilder   32 - FCN =      -85149.14021 Edm =      0.0204289908 NCalls =   1195
+Info in <Minuit2>: VariableMetricBuilder   33 - FCN =      -85149.19816 Edm =    0.006024569688 NCalls =   1228
+Info in <Minuit2>: VariableMetricBuilder   34 - FCN =      -85149.20826 Edm =    0.002749873401 NCalls =   1260
+Info in <Minuit2>: VariableMetricBuilder   35 - FCN =      -85149.22007 Edm =    0.007861737805 NCalls =   1293
+Info in <Minuit2>: VariableMetricBuilder   36 - FCN =      -85149.26382 Edm =     0.02316837594 NCalls =   1326
+Info in <Minuit2>: VariableMetricBuilder   37 - FCN =      -85149.36199 Edm =     0.01628917481 NCalls =   1362
+Info in <Minuit2>: VariableMetricBuilder   38 - FCN =      -85149.38447 Edm =    0.005434045774 NCalls =   1395
+Info in <Minuit2>: VariableMetricBuilder   39 - FCN =      -85149.39313 Edm =    0.003578757387 NCalls =   1428
+Info in <Minuit2>: VariableMetricBuilder   40 - FCN =      -85149.39783 Edm =    0.002000794476 NCalls =   1463
+Info in <Minuit2>: VariableMetricBuilder   41 - FCN =      -85149.39824 Edm =    0.003929732801 NCalls =   1496
+Info in <Minuit2>: VariableMetricBuilder   42 - FCN =      -85149.40096 Edm =   0.0003105619236 NCalls =   1529
+Info in <Minuit2>: VariableMetricBuilder   43 - FCN =      -85149.40127 Edm =   6.226453038e-05 NCalls =   1562
+Info in <Minuit2>: VariableMetricBuilder After Hessian
+Info in <Minuit2>: VariableMetricBuilder   44 - FCN =      -85149.40127 Edm =   0.0001238547666 NCalls =   1742
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -85149.4012655199185
+Edm   = 0.000123854766583017913
+Nfcn  = 1742
+BBWgamma	  = 3.75886	 +/-  0.276503	(limited)
+BBWmean	  = 5280.03	 +/-  0.0520053	(limited)
+BGausssigma	  = 8.01436	 +/-  0.111761	(limited)
+Ba0	  = -0.399526	 +/-  0.0172031	(limited)
+Ba1	  = -0.287369	 +/-  0.0197417	(limited)
+DBWgamma	  = 20	 +/-  1.86971	(limited)
+DBWmean	  = 1870.8	 +/-  0.146248	(limited)
+DGaussmean	  = 1868.33	 +/-  0.239234	(limited)
+Da0	  = -0.252242	 +/-  0.0206393	(limited)
+Da1	  = 0.0552642	 +/-  0.0303927	(limited)
+Dgausswidth	  = 13.5934	 +/-  0.188392	(limited)
+nDbkgBbkg	  = 7810.55	 +/-  159.654	(limited)
+nDbkgBsig	  = 0.0137637	 +/-  161.137	(limited)
+nDsigBbkg	  = 2505.09	 +/-  193.389	(limited)
+nDsigBsig	  = 41218.2	 +/-  268.991	(limited)
+Info in <Minuit2>: Minuit2Minimizer::Hesse Using max-calls 7500
+Info in <Minuit2>: Minuit2Minimizer::Hesse Hesse is valid - matrix is accurate
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: -85149.4, estimated distance to minimum: 0.000163154
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+              BBWgamma    1.0000e+01    3.7589e+00 +/-  2.77e-01  <none>
+               BBWmean    5.2790e+03    5.2800e+03 +/-  5.20e-02  <none>
+           BGausssigma    1.0000e+01    8.0144e+00 +/-  1.12e-01  <none>
+                   Ba0   -1.5000e-02   -3.9953e-01 +/-  1.72e-02  <none>
+                   Ba1   -6.0000e-02   -2.8737e-01 +/-  1.98e-02  <none>
+              DBWgamma    1.0000e+01    2.0000e+01 +/-  1.86e-01  <none>
+               DBWmean    1.8697e+03    1.8708e+03 +/-  1.46e-01  <none>
+            DGaussmean    1.8697e+03    1.8683e+03 +/-  2.40e-01  <none>
+                   Da0   -1.5000e-02   -2.5224e-01 +/-  2.06e-02  <none>
+                   Da1   -6.0000e-02    5.5264e-02 +/-  3.03e-02  <none>
+           Dgausswidth    1.0000e+01    1.3593e+01 +/-  2.09e-01  <none>
+             nDbkgBbkg    5.0000e+03    7.8105e+03 +/-  1.60e+02  <none>
+             nDbkgBsig    5.0000e+03    1.3764e-02 +/-  1.81e+02  <none>
+             nDsigBbkg    1.0000e+04    2.5051e+03 +/-  1.93e+02  <none>
+             nDsigBsig    1.0000e+04    4.1218e+04 +/-  2.69e+02  <none>
+
+Integral value for DsigBsig: 0.971682
+Integral value for DsigBbkg: 0.417035
+Integral value for DbkgBsig: 0.571286
+Integral value for DbkgBbkg: 0.24519
+DsigBsig yield: 40050 +/- 261
+DsigBbkg yield: 1044 +/- 80
+DbkgBsig yield: 0 +/- 103
+DbkgBbkg yield: 1915 +/- 39  
+Percentage of non-D contribution is: 0%
+Info in <TCanvas::Print>: file ../plots/2D_fit_B.png has been created
+Info in <TCanvas::Print>: file ../plots/2D_fit_D.png has been created
