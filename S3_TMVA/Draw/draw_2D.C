@@ -27,7 +27,7 @@ void draw_2D()
     TChain *chain = new TChain("DecayTree");
     chain->Add("../root/data_*_BDT.root");
 
-    TString cut = "BDT > -0.03 && B0_PVDFit_M>5247.06 && B0_PVDFit_M<5312.91 && B0_PVFit_Dplus_M>1840 && B0_PVFit_Dplus_M<1900";
+    TString cut = "BDT > -0.14 && B0_PVDFit_M>5245.32 && B0_PVDFit_M<5314.78 && B0_PVFit_Dplus_M>1840 && B0_PVFit_Dplus_M<1900";
 
     lhcbStyle();
     gStyle->SetOptStat(0);
